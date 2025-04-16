@@ -23,5 +23,3 @@ jobs:
         uses: actions/checkout@v4
 
       - uses: grafana/plugin-actions/bundle-size@jackw/gen-bundle-stats-artifact
-        with:
-          main-branch-stats-artifact: 'hello-world'
